@@ -309,3 +309,78 @@ nav{
 .awards-title{
     text-align: center;
 }
+
+/* new section */
+
+.my-portfolio{
+    background-color: #1b1b1b;
+    /* text-align: center; */
+    padding-bottom: 40px;
+}
+.portfolio-btn {
+    margin-top: 20px;
+    color: black;
+    text-align: center;
+    
+}
+.portfolio-title{
+    text-align: center;
+}
+.web-btn{
+    background-color: #FD6F00;
+    color: white;
+}
+.portfolio-btn button{
+    padding: 10px;
+    border: none;
+    margin-left: 10px;
+    border-radius: 5px;
+    
+}
+
+.my-portfolio h1 {
+    color: white;
+
+    padding-bottom: 10px
+}
+.my-portfolio small{
+    color: #a5a5a5;
+}
+
+/* new section */
+
+.portfolio-card-1{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 60px;
+    align-items: center;
+    color: white;
+}
+
+.portfolio-img{
+    width: 345px;
+    height: 235px;
+    object-fit: cover;
+}
+
+.portfolio-child-img{
+    width: 445px;
+    height: 335px;
+    background-color: black;
+}
+.img2{
+    position: relative;
+    bottom: 150px;
+    left: 60px;
+}
+.img1{
+    position: relative;
+    /* bottom: 150px; */
+    left: 20px;
+}
+
+.prt-card-2{
+    flex-direction: row-reverse;
+}
