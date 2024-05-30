@@ -26,7 +26,11 @@ header{
     
     
 }
-
+.nav-btn{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
 .nav-links ul li{
     list-style: none;
     display: flex;
@@ -42,7 +46,7 @@ header{
 }
 /* nav style color section */
 
-.logo{
+.nav-logo{
     color: #FD6F00;
 }
 .nav-btn{
@@ -106,6 +110,8 @@ header{
 }
 .header-title span{
     color: #FD6F00;
+    font-size: 25px;
+   align-items: center;
 }
 .header-para{
     margin-top: 20px;
@@ -198,4 +204,67 @@ nav{
 .header-bottom-right small{
     color: rgb(87, 87, 87);
     margin-left: 34px;
+}
+
+
+/* main section  */
+
+.my-experience{
+    display: flex;
+    justify-content: space-around;
+    background-image: linear-gradient(to right, rgb(46,38,49) , rgb(53,39,37), rgb(52,44,34));
+    padding-top: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 60px;
+    
+   
+}
+.experience-left{
+    color: white;
+
+}
+
+.experience-right{
+    color: white;
+    
+}
+.right-1 h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.right-1{
+    border-bottom: 1px solid rgb(131, 131, 131);
+    
+}
+.right-2{
+    border-bottom: 1px solid rgb(131, 131, 131);
+    
+}
+/* .right-3{
+    border-bottom: 1px solid rgb(131, 131, 131);
+    
+} */
+.right-2 h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.right-3 h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.right-chlid{
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 40px; */
+
+}
+.right-chlid small{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.experience-left h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
