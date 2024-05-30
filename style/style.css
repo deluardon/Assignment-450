@@ -268,3 +268,44 @@ nav{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+
+/* new section */
+
+.Awards{
+    background-color: #1b1b1b;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    /* text-align: center; */
+    
+}
+
+.Awards h1{
+    color: white;
+    padding-bottom: 10px;
+}
+.awards-title small{
+    color: #a5a5a5;
+}
+
+.awards-card{
+    width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: black;
+    color: white;
+}
+.awards-child{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.awards-child-1 h3{
+    padding-bottom: 20px;
+}
+.awards-title{
+    text-align: center;
+}
