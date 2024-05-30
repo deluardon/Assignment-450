@@ -52,21 +52,36 @@ header{
 
 /* header section */
 .header-btn{
-    background-color: #63636300;
+    margin-top: 30px;
+    width: 240px;
+    padding: 5px;
+    background-color: #2e2e2e; 
     border-radius: 30px;
     border: 2px solid #FD6F00;
     
+    
+}
+.btn-2{
+    background-color: #2e2e2e;
+    color: white;
+    margin-left: 20px;
+    font-size: 20px;
+    border: none;
 }
 .btn{
     background-color: #FD6F00;
     color: white;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
 }
 .header-container{
     display: flex;
+    justify-content: space-between;
     padding-top: 30px;
     margin-left: 30px;
     margin-right: 30px;
-}
+ }
 
 .header-img{
     position: relative;
@@ -83,4 +98,104 @@ header{
 .header-img{
     width: 400px;
     height: 400px;
+}
+.header-title{
+    font-size: 40px;
+    font-weight: 800;
+    color: white;
+}
+.header-title span{
+    color: #FD6F00;
+}
+.header-para{
+    margin-top: 20px;
+    color: rgb(99, 99, 99);
+    font-weight: 400;
+}
+.header-h3{
+    color: rgb(122, 122, 122);
+    margin-top: 20px;
+}
+.header-h3 span{
+   color: #FD6F00;
+}
+.header-icon{
+    margin-top: 15px;
+    color: rgb(122, 122, 122);
+    font-size: 20px;
+    
+}
+.header-icon span{
+    margin-left: 10px;
+}
+
+@keyframes slide {
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+.logo{
+    overflow: hidden;
+    rotate: -3deg;
+    background-color: black;
+    padding: 20px 20px;
+}
+
+.slider-logo{
+    white-space: nowrap;
+    /* background-color: black; */
+    
+    animation: 20s slide infinite linear;
+    color: #ffffff;
+    position: relative;
+    
+   
+
+    
+}
+nav{
+    /* padding-bottom: 40px; */
+    height:840px;
+}
+.slider-logo span{
+    margin-left: 10px;
+  
+
+
+}
+.slider-logo i{
+    color: #1f1f1f;
+}
+
+.header-bottom{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.header-bottom-left h1{
+    color: white;
+}
+.header-bottom-left small{
+    color: rgb(87, 87, 87);
+}
+
+.header-bottom-right i{
+  color: #FD6F00;
+    
+}
+
+.header-bottom-right h1{
+    color: white;
+ 
+}
+
+.header-bottom-right small{
+    color: rgb(87, 87, 87);
+    margin-left: 34px;
 }
