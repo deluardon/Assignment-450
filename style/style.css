@@ -384,3 +384,58 @@ nav{
 .prt-card-2{
     flex-direction: row-reverse;
 }
+
+/* new section */
+
+
+.project-container{
+    padding-left:40px;
+    padding-right: 40px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+.project-title{
+    text-align: center;
+    text-transform: uppercase;
+}
+.project-chlid{
+    background-color: #883d049d;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+.project-input input{
+        background-color:#883d049d;
+        border: none;
+      
+      padding: 10px;
+        margin-top: 20px;
+        margin-left: 80px;
+        border-bottom:1px solid #a5a5a5;
+    }
+
+.project-chlid h1{
+    margin-left: 80px;
+    text-transform: uppercase;
+}
+.input-name{
+    width: 400px;
+}
+
+.input-email{
+    width: 400px;
+}
+.message{
+    width: 900px;
+   
+    margin-bottom: 30px;
+}
+.project-input button{
+    margin-left: 80px;
+    padding: 10px;
+    background-color: #FD6F00;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
