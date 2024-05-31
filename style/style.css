@@ -439,3 +439,43 @@ nav{
     border-radius: 5px;
 }
 
+
+/* footer section */
+footer{
+    background-color: black;
+    height: 400px;
+}
+.footer-logo{
+    text-align: center;
+    color: #FD6F00;
+    padding-top: 80px;
+}
+.footer-link{
+    text-align: center;
+    padding-top: 40px;
+}
+.footer-link a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}
+
+.footer-icon{
+    text-align: center;
+    padding-top: 40px;
+}
+.footer-icon a{
+    margin-left: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.footer-copyright{
+    color: white;
+    margin-top: 80px;
+    padding: 20px;
+    background-color: rgb(18, 18, 18);
+    text-align: center;
+    /* padding-top: 80px; */
+}
+
