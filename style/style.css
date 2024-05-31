@@ -479,8 +479,7 @@ footer{
     /* padding-top: 80px; */
 }
 
-
-@media screen and (max-width: 700px) {
+@media (max-width: 992px){
     .header-container{
         flex-direction: column;
     }
@@ -521,6 +520,133 @@ footer{
     }
     .my-experience{
         padding-top: 120px;
+        flex-direction: column;
+    }
+    .header-left{
+        text-align: center
+        ;
+    }
+    .awards-card{
+        text-align: center;
+    }
+    .graphic-btn{
+        margin-top: 20px;
+    }
+    .portfolio-child-2{
+        text-align: center;
+        padding-top: 40px;
+    }
+    .nav-item{
+        display: none;
+    }
+}
+@media (max-width: 768px){
+    .header-container{
+        flex-direction: column;
+    }
+    .nav-item{
+        flex-direction: column;
+    }
+    .nav-item{
+        display: none;
+    }
+    .awards-child{
+        flex-direction: column;
+        width: 50%;
+    }
+    .portfolio-card-1{
+        flex-direction: column;
+    }
+    .awards-card{
+        width: 50%;
+    }
+    .message{
+        width: 50%;
+    }
+    .header-img{
+        width: 50%;
+        height: 50%;
+    }
+    .input-email{
+        width: 50%;
+    }
+    .input-name{
+        width: 50%;
+    }
+    .portfolio-child-img{
+        width: 50%;
+    }
+    .img2{
+        width: 50%;
+    }
+    .img1{
+        width: 50%;
+    }
+    .my-experience{
+        padding-top: 120px;
+        flex-direction: column;
+    }
+    .header-left{
+        text-align: center
+        ;
+    }
+    .awards-card{
+        text-align: center;
+    }
+    .graphic-btn{
+        margin-top: 20px;
+    }
+    .portfolio-child-2{
+        text-align: center;
+        padding-top: 40px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .header-container{
+        flex-direction: column;
+    }
+    .nav-item{
+        display: none;
+    }
+    .nav-item{
+        flex-direction: column;
+    }
+    .awards-child{
+        flex-direction: column;
+        width: 50%;
+    }
+    .portfolio-card-1{
+        flex-direction: column;
+    }
+    .awards-card{
+        width: 50%;
+    }
+    .message{
+        width: 50%;
+    }
+    .header-img{
+        width: 50%;
+        height: 50%;
+    }
+    .input-email{
+        width: 50%;
+    }
+    .input-name{
+        width: 50%;
+    }
+    .portfolio-child-img{
+        width: 50%;
+    }
+    .img2{
+        width: 50%;
+    }
+    .img1{
+        width: 50%;
+    }
+    .my-experience{
+        padding-top: 120px;
+        flex-direction: column;
     }
     .header-left{
         text-align: center
